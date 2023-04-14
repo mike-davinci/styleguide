@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+
+@font-face {
+    font-family: 'myfont2';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+}
+
+@font-face {
+    font-family: 'myfont3';
+    src: url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+}
+
+body {
+    margin: 100px;
+}
+
+h1 {
+    margin: 75px 85px;
+    font-family: 'myfont' , sans-serif;
+    font-size: 55px;
+
+}
+
+h2 {
+    margin: 55px 45px;
+    font-size: 35px;
+    font-family: 'myfont2' , sans-serif;
+}
+
+.colors {
+    border: 2px solid black;
+    margin: 75px 8px;
+    font-family: 'myfont2', sans-serif;
+}
+
+.boxdisplay1 {
+    display: flex;
+    column-gap: 70px;
+    margin-bottom: 55px;
+}
+
+.boxdisplay2 {
+    display: flex;
+    column-gap: 70px;
+    margin-bottom: 65px;
+}
+
+.antique-white{
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;;
+    text-align: center;
+    margin-left: 45px;;
+}
+
+.aquamarine {
+    border: 2px solid aquamarine;
+    border-radius: 4px;
+    background-color: #7fffd4;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;;
+    text-align: center;
+    margin-left: 45px;;
+}
+
+.salmon {
+    border: 2px solid salmon;
+    border-radius: 4px;
+    background-color: #fa8072;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;;
+    text-align: center;
+    margin-left: 45px;;
+}
+
+.navy {
+    border: 2px solid navy;
+    border-radius: 4px;
+    background-color: #000080;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;;
+    text-align: center;
+    margin-left: 45px;;
+}
+
+.fuchsia {
+    border: 2px solid fuchsia;
+    border-radius: 4px;
+    background-color: fuchsia;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.aliceblue {
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    background-color: aliceblue;
+    font-size: 22px;
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+
+
+.navy p {
+    color: white;
+}
+
+
+
+.fontcontainer {
+    display: flex;
+    width: 80%;
+}
+
+.fonts {
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+
+.montserrat {
+    font-family: 'myfont2' , sans-serif;
+}
+
+.raleway {
+    font-family: Raleway , sans-serif;
+    float: right;
+}
+
+.ptsans {
+    font-family: 'PT Sans' , sans-serif;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+
+h3 {
+    text-decoration: underline;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.fonts p {
+    font-size: 22px; 
+    margin-left: 45px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.tstyles {
+    border: 2px solid black;
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+
+.tstyles h1 {
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom:45px;
+    text-decoration: underline;
+}
+
+
+#subheads {
+    text-decoration: underline;
+}
+
+.heading2 {
+    margin-bottom: 45px;
+}
+
+.tstyles h3 {
+    font-family: 'myfont' , sans-serif;
+}
+
+li {
+    font-family: 'myfont' , sans-serif;
+    font-size: 20px;
+}
+
+.paragraph {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
